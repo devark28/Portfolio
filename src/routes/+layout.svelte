@@ -1,13 +1,13 @@
-<script>
+<script lang="ts">
 	import '../css/global.css';
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
 </script>
 
-<div class="app">
+<div class="app" style="overflow: hidden;">
 	<Nav />
 
-	<div class="viewport">
+	<div class="app-content">
 		<main>
 			<slot />
 		</main>
@@ -23,12 +23,11 @@
 		width: 100vw;
 	}
 
-	.viewport {
+	.app-content {
 		display: flex;
 		flex-direction: column;
 		flex: 1;
 		height: inherit;
-		background-color: #fbe1e1;
 	}
 
 	main {

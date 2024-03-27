@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-    <p>© {year} - <a href="bruceshimwa.me">Bruce SHIMWA Emmanuel</a></p>
+    <p>© {year} - <a href="http://bruceshimwa.me">Bruce SHIMWA Emmanuel</a></p>
 </footer>
 
 <style>
