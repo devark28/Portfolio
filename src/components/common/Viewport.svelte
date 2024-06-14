@@ -3,7 +3,7 @@
 	import { spring } from 'svelte/motion';
 	import { onMount } from 'svelte';
 
-	// scale from 0.7 to 1, transilateY from -0.7 to 0, opacity from 0 to 1, with a duration of 400ms
+	// scale from 0.7 to 1, translateY from -0.7 to 0, opacity from 0 to 1, with a duration of 400ms
 	$: scale = spring(1.2);
 	$: translateY = spring(0.5);
 	$: opacity = spring(0);
