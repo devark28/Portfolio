@@ -7,7 +7,7 @@
 		<div class="text">
 			<div class="content">
 				<div class="primary">Bruce SHIMWA Emmanuel</div>
-				<div class="secondary">A modern and experienced developer aiming for projects completion</div>
+				<div class="secondary">A modern and experienced developer aiming at improving the User Experience</div>
 				<div class="cta">
 					<button><a href="/skills">Discover My Skills</a></button>
 				</div>
